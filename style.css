@@ -1,0 +1,646 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.html{
+    scroll-behavior: smooth;
+}
+.menu_email li:hover{
+    color:  #12687f !important;
+}
+.menu2_yellow_Words{
+    color:  yellow !important;
+}
+.porogress{
+    cursor: pointer;
+}
+.Cust_care_btn:hover{
+    background-color: yellowgreen !important;
+}
+.Cust_care_btn{
+    border-radius: 20px;
+}
+.Text_Black_Nav li a:hover{
+    color: black !important;
+}
+#menu_highlight_items1:hover a{
+    color: #12687f !important;
+}
+#menu_highlight_items1:hover i{
+    color: #12687f !important;
+}
+@media(max-width:667px){
+    .Home_info_image{
+        height: 300px !important;
+    }
+}
+#menu_highlight_items2:hover a{
+    color: #12687f !important;
+}
+#menu_highlight_items2:hover i{
+    color: #12687f !important;
+}
+
+#menu_highlight_items3:hover a{
+    color: #12687f !important;
+}
+#menu_highlight_items3:hover i{
+    color: #12687f !important;
+}
+.prew_btn_div{
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50%;
+    background-color:rgb(53, 53, 49);
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.form_icon{
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: #12687f;
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Aboutus{
+    background-color: #13536e;
+}
+.icon_smily{
+    font-size: 50px;
+}
+.next_Btn:hover{
+    background-color: #13536e !important;
+    color: white !important;
+    box-shadow: 5px 5px 50px white !important;
+}
+@media(max-width:667px){
+    .border_About_down{
+        border: 10px solid white;
+        border-collapse: collapse;
+    }
+}
+.border_About_down{
+    background-image: linear-gradient(to bottom right,#b6d1dc,#0d5868);
+}
+.why_choose_us{
+    border-radius: 30px 0px 30px 0px;
+    height: 350px;
+}
+.why_choose_us1{
+    border-top-left-radius: 30px !important;
+}
+.why_choose_us_icons{
+    height: 100px;
+    width: 100px;
+    background-color: #e2ccd0;
+    font-size: 50px;
+    text-align-last: center;
+    animation-name: border_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50px 50px 40px 60px;
+}
+@keyframes border_animation{
+    20%{
+        border-radius: 60px 50px 50px 40px;
+    }
+    40%{
+        border-radius: 50px 50px 40px 40px;  
+    }
+    60%{
+        border-radius: 50px 40px 40px 50px;  
+    }
+    80%{
+        border-radius: 50px 50px 40px 40px;  
+    }
+    100%{
+        border-radius: 50px 50px 40px 50px;  
+    }
+}
+.why_choose_us_icon2{
+    height: 105px;
+    width: 105px;
+    background-color: transparent;
+    font-size: 50px;
+    text-align-last: center;
+    border-radius: 50%;
+    border: 2px solid silver;
+    animation-name: border_animation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50px 50px 40px 60px;
+}
+@keyframes border_animation2{
+    20%{
+        border-radius: 30px 40px 50px 50px;
+    }
+    40%{
+        border-radius: 40px 40px 50px 50px;  
+    }
+    60%{
+        border-radius: 50px 50px 50px 50px;  
+    }
+    80%{
+        border-radius: 40px 50px 50px 50px;  
+    }
+    100%{
+        border-radius: 40px 50px 50px 40px;  
+    }
+}
+.why_choose_us_icons i{
+    margin-top: 20px;
+}
+.why_choose_us:hover{
+    background-color: #13536e;
+    color:white;
+}
+.why_choose_us:hover .why_choose_us1{
+    background-color: #13536e !important;
+}
+.bg_info_Type_color{
+    background-color: #13536e;
+}
+.trophy_icons{
+    font-size: 70px;
+    font-weight: bold !important;
+    color: white !important;
+}
+.card_about_info{
+    height: 220px;
+}
+.card_body_container:hover .card_about_info h5{
+    color: white;
+}
+.card_body_container:hover .card_about_info p{
+    color: white;
+}
+.card_body_container:hover .card_about_info{
+    background-color: #0d5868 !important;
+    transition: 0.4s;
+    transform: scale(1,1.10);
+}
+.med_small_text{
+    font-size: 15px;
+}
+.medal_image{
+    height: 50px;
+    width: 50px;
+    float: right;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 10px;
+    z-index: 9999;
+}
+
+.Footer_logos{
+    height: 50px;
+
+}
+.hover_ul li a:hover{
+    color: #12687f !important;
+    text-decoration: underline !important;
+}
+.hover_ul li a:hover .hover_ul b{
+    color: #12687f !important;
+}
+
+/* About Nagebaba */
+.Background_img_about_nagebaba{
+    background-image: url("Images/happy.jpg") !important;
+    background-size: 100% 100%;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: fixed;
+}
+.mukhprusht_Name{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.about_upper_empty_div{
+    height: 200px; 
+    width: 100%;
+    background-color: transparent;
+}
+@media(max-width:667px) {
+    .about_upper_empty_div{
+        height: 200px;
+    }
+    .mukhprusht_Name{
+        padding-left: 0px;
+        text-align: center;
+   
+    }
+    .Background_img_about_nagebaba{
+        height: 400px !important;
+    }
+}
+
+.vision_bg_img{
+    background-image: url("Images/about-page-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.vision_bg2_img{
+    background-image: url("Images/about-us-3-bg.png");
+
+}
+.testimonial_bg{
+    background-image: url("Images/testimonial-bg-1.png");
+    background-size: 100% 100% !important;
+    float: left;
+}
+/* About Chairman */
+.Background_img_about_chairman{
+    background-image: url("Images/chairman.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: fixed;
+}
+@media(max-width:667px){
+    .Background_img_about_chairman{
+        height: 300px !important;
+    }
+    .mukhprusht_Name{
+        padding: 50px;
+        margin: 0;
+    }
+    #chair_icon{
+        margin-top: 150px !important;
+    }
+}
+.bg_chairman_upper_blk_div{
+    background-color: #000000 !important;
+}
+.img_1_chairman_gallary{
+    background-image: url("Images/chairmanimg1.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+}
+.img_2_chairman_gallary{
+    background-image: url("Images/chairmanimg2.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+}
+.img_3_chairman_gallary{
+    background-image: url("Images/chairmanimg3.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+}
+.img_4_chairman_gallary{
+    background-image: url("Images/chairmanimg4.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+}
+.imglight_chair_gallary{
+    height: 100%;
+    width: 100%;
+    background-color: #6fbbd0cc;
+    display: none;
+}
+.img_5_chairman_gallary{
+    background-image: url("Images/chairmanimg5.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+}
+.img_6_chairman_gallary{
+    background-image: url("Images/chairmanimg6.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+}
+.img_7_chairman_gallary{
+    background-image: url("Images/chairmanimg7.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+}
+.img_8_chairman_gallary{
+    background-image: url("Images/chairmanimg8.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+}
+@media (max-width:667px){
+    .cgi{
+        height: 400px;
+    }
+    .Background_img_about_chairman{
+        height: 400px !important;
+    }
+    
+ }
+ .cgi:hover .imglight_chair_gallary{
+    display: block;
+}
+.cgi:hover.cgi{
+    transform: scaleY(1.10);
+}
+@media (max-width:667px) {
+    .karyashala_img1{
+        width: auto;
+        height: 100%;
+    }
+    .karyashala_img2{
+        width: auto;
+        height: 100%;
+    }
+}
+.karyashala_img1{
+    background-image: url("Images/karyashala_img1.jpg");
+    background-size: 100% 100%;
+    height: 220px;
+}
+.karyashala_img2{
+    background-image: url("Images/karyashala_img3.jpg");
+    background-size: 100% 100%;
+    height: 220px;
+}
+.karyashala_imges{
+    width: 550px !important;
+    height: 300px !important;
+}
+/* vyavasthapan */
+.Background_img_about_vyavasthapan{
+    background-image: url("Images/vyavasthapanBg.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: fixed;
+}
+@media(max-width:667px){
+    .Background_img_about_vyavasthapan{
+        height: 400px !important;
+    }
+    .mukhprusht_Name{
+        padding: 50px;
+        margin: 0;
+    }
+}
+/* Seva */
+.Background_img_about_seva{
+    background-image: url("Images/sevabg.png") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: fixed;
+}
+
+.icons_inside_div_seva{
+    height: 50px;
+    width: 50px;
+    bottom: 0px;
+    right: 10px !important;
+    background-color: #12687f;
+    position: absolute;
+    bottom: 170px;
+}
+@media (max-width:667px){
+    .Background_img_about_seva{
+        height: 400px !important;
+    }
+}
+
+/* Fix Deposite */
+.Background_img_about_fix_deposite{
+    background-image: url("Images/fix_deposit.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: black;
+}
+
+.bg_opacity_fix_deposite{
+    background-color: rgba(0, 0, 0, 0.622) !important;
+    height: 400px;
+}
+
+@media (max-width:667px){
+    .Background_img_about_fix_deposite{
+        height: 400px !important;
+    }
+    .bg_opacity_fix_deposite{
+        height: 400px;
+    }
+}
+
+/*
+       ^
+       |
+       |
+       |
+ Avarti Thev */
+/* sonetaran karj */
+.Background_img_about_sonetaran_karj{
+    background-image: url("Images/sonetaran_karj.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: black;
+}
+
+.sonetaran_ul_circle{
+    list-style-type:circle;
+    color: #000000;
+}
+
+
+/* 
+        ^
+        |
+        |
+        |
+Taran Yojana */
+ @media (min-width:667px) {
+    .btn_small_mob{
+        font-size: 15px !important;
+    }
+ }
+ /* vichardhan */
+ .Background_img_vichardhan{
+    background-image: url("Images/vichardhan.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: black;
+}
+@media (max-width:667px) {
+    .vichardhan_icons_margin{
+        margin-top: 150px !important;
+    }
+}
+/* Books */
+.Background_img_about_Books{
+    background-image: url("Images/book.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: black;
+}
+ 
+@media (max-width:667px) {
+    .Booksimg{
+        width: 300px !important;
+        height: 400px !important;
+    }
+}
+/* Our work */
+.Background_img_Our_work{
+    background-image: url("Images/our_work.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+}
+.card:hover .hover_effect_work_body{
+    background:  #ffc107;
+}
+
+/* Media */
+.Background_img_media_page{
+    background-image: url("Images/media.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+}
+/* Carrer */
+.Background_img_about_Career{
+    background-image: url("Images/careerbg.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: black;
+}
+
+/* Calendar */
+.Background_img_about_Calendar{
+    background-image: url("Images/calendar.png") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: white;
+}
+
+.bg_opacity_Calendar{
+    background-color: rgba(0, 0, 0, 0.61) !important;
+    height: 400px;
+}
+.calender_month{
+    width: 200px !important;
+    background-color: white;
+    padding: 25px;
+}
+.calender_month ul{
+    justify-content: center;
+}
+.calender_month li{
+    list-style-type: none;
+    background-color: #12687f;
+    width: 100px;
+    margin-right: 40px !important;
+    margin-top: 10px;
+}
+
+@media (max-width:667px) {
+    .calender_month{
+        margin-left: 120px !important;
+    }
+}
+
+.calender_month li:hover{
+    cursor: pointer;
+}
+
+/* Contact */
+.Background_img_about_Contact{
+    background-image: url("Images/contact.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: white;
+}
+.Iconlist_verticall :hover i{
+    color: aqua;
+}
+.Iconlist_verticall li:hover i{
+    transform: scale(1.30) !important;
+}
+
+@media (max-width:667px){
+    .Iconlist_verticall{
+        display: none;
+    }
+}
+
+/* Feedback */
+.Background_img_Feedback{
+    background-image: url("Images/Feedback.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: white; 
+}
+
+@media (max-width:667px) {
+    .Feedback_form{
+        width: 100% !important;
+        float: left !important;
+        margin-bottom: 20px;
+    }
+    .Feedback_form_textarea{
+        width:100% !important;
+        z-index: 9999;
+    }
+}
+
+
+/* About nagebab slider */
+.slider_about_nagebaba{
+    background-image: url("Images/about_nagebaba_slider_img.png") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 600px !important;
+    width: auto !important;
+    background-attachment: absolute;
+    background-color: white;
+}
+/* slider_about_happy_customer */
+@media (max-width:667px) {
+    .slider_about_happy_customer{
+       padding-top: 250px;
+    }
+}
